@@ -1,7 +1,7 @@
 package two_weeks;
 import java.util.Scanner;
 
-public class three {
+public class practice03 {
 	public static void main(String args[]) {
 		int a=50000,b=10000,c=1000,d=100,e=50,f=10,g=1;
 		int a_count=0,b_count=0,c_count=0,d_count=0,e_count=0,f_count=0,g_count=0;
@@ -31,5 +31,6 @@ public class three {
 		System.out.println("십원 "+f_count+"매");
 		System.out.println("일원 "+g_count+"매");
 		
+		scanner.close();
 	}
 }

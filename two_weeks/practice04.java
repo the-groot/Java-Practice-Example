@@ -1,6 +1,6 @@
 package two_weeks;
 import java.util.Scanner;
-public class four {
+public class practice04 {
 public static void main(String args[]) {
 	int a,b,c;
 	int middle;
@@ -29,6 +29,7 @@ public static void main(String args[]) {
 		middle=b;
 	}
 	System.out.println("중간 값은 "+middle+" 이다");
+	scanner.close();
 }	
 
 }

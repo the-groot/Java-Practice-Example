@@ -3,7 +3,7 @@ package two_weeks;
 import java.util.Scanner;
 
 
-public class one {
+public class practice01 {
 	public static void main(String args[]) {
 		final int DOLLAR =1100;
 		System.out.print("원화를 입력하세요(단위 원)");
