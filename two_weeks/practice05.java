@@ -18,5 +18,6 @@ public class practice05 {
 			System.out.println("삼각형이 됩니다");
 		else
 			System.out.println("삼각형이 안됩니다");
+		sc.close();
 	}
 }

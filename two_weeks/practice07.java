@@ -18,6 +18,7 @@ public class practice07 {
 		else {
 			System.out.println("("+x+","+y+")는 사각형 안에 없습니다.");
 		}
+		sc.close();
 	}
 
 }

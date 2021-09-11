@@ -39,6 +39,6 @@ public class practice06 {
 			break;
 		}
 		}
-
+		sc.close();
 	}
 }
