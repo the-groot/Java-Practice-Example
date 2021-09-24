@@ -22,8 +22,11 @@ public class practice04 {
 	}
 	
 	protected boolean contains(practice04 r) {
-		if((x<=r.x && r.x<=x+width) && (y<=r.y && r.y<=y+height) ) {
+		if((x<=r.x && r.x+r.width<=x+width)) {
+			if((y<=r.y && r.y+r.height<=y+height))
 			return true;
+			else
+			return false;
 		}
 		
 		else
