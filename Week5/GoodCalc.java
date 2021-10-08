@@ -29,7 +29,7 @@ public class GoodCalc extends Calculator {
 	public static void main(String[] args) {
 		GoodCalc g=new GoodCalc();
 		System.out.println(g.add(2, 3));
-		System.out.println(g.subtract(5, 3));
+		System.out.println(g.subtract(2, 3));
 		System.out.println(g.average(new int[] {2,3,4}));
 	}
 }
