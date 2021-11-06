@@ -14,10 +14,8 @@ public class BlockBinaryCopyEx {
 			
 			while(true) {
 				int n=fi.read(buf);
-				System.out.println("n="+n);
 				fo.write(buf,0,n);
 				if(n<buf.length) {
-					System.out.println(buf.length);
 					break;
 				}
 			}

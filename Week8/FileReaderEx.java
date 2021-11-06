@@ -15,6 +15,7 @@ public class FileReaderEx {
 			fin.close();
 		}
 		catch(IOException e) {
+			File src=new File("D:\\Eclipse\\workspace\\test\\src\\Week8\\8-1.txt");
 			System.out.println("입출력 오류");
 		}
 	}
